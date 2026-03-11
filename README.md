@@ -92,19 +92,29 @@ This repository contains the following files:
 5. scipy
 
 ## Getting Started
-The following are the procedures for downloading the required dataset and running the SQL file and .py in this repository:
-1.  Download the dataset from Kaggle. Save the dataset in CSV format.
-2.  Clone or download this repository to get the SQL and Python files. Ensure the dataset and all downloaded files are placed within the same project folder.
-3.  Run the analysis.
-   - For SQL:  
-     ```bash
-     psql -d your_database -f supermarket_sales.sql
+1. **Download files**
+   - Clone or download this repository to get the SQL and Python files.
+   - Download the **Supermarket Sales Dataset** from Kaggle and save it as **'supermarket_sales_new.csv'**.
+2. **Organize files**
+   - Place the dataset and code files inside the same project folder (repo root).
+   - Example structure:
      ```
-   - For Python:  
-     ```bash
-     python supermarket_sales.py
+     supermarket-sales-analysis/
+     ├── README.md
+     ├── marketQuery.sql
+     ├── supermarketAnalysis.py
+     └── supermarket_sales_new.csv
      ```
-4.  Check outputs:
+3. **Run the analysis**
+   - For SQL:
+     ```bash
+     psql -d my_db -f marketQuery.sql
+     ```
+   - For Python:
+     ```bash
+     python supermarketAnalysis.py
+     ```
+4. **Check outputs**
    - SQL queries will export results as CSV files in the same folder.
    - Python scripts will generate statistical analysis outputs.
 
