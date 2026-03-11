@@ -19,51 +19,51 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 ## Results
 > Table 1: Total sales and taxes of each branch in descending order.
 
-|Branch	|Total Sales|Total Taxes
-|:------|:----------|:----------
+|Branch|Total Sales|Total Taxes
+|:-----|:----------|:----------
 |C	    |105303.50  |16047.90
 |A	    |101143.20  |15224.12
-|B      |101140.60	|12640.56
+|B     |101140.60	 |12640.56
 
 
 > Table 2: Product lines with highest sales with respect to branch ranked in descending order.
 
 |Branch|Product Line		      	|Total Sales|Total Taxes
-|:-----|:-----------------------|:----------|:----------
-|C	   |Health and beauty	    	|15824.12		|2189.02
-|C	   |Home and lifestyle	  	|13233.86		|2202.37
-|C	   |Electronic accessories	|18065.69		|2619.73
-|B	   |Food and beverages	  	|14490.37		|1603.89
-|B	   |Electronic accessories	|16239.47		|2235.4
-|A	   |Electronic accessories	|17444.87		|1348.68
-|A	   |Home and lifestyle	  	|21349.71		|3668.13
-|A	   |Sports and travel		    |18450.19		|3435.73
-|C	   |Fashion accessories		  |20533.4		|4669.1
-|B	   |Home and lifestyle	  	|16713.49		|1780.84
-|B	   |Health and beauty	    	|19029.2		|2977.49
-|C	   |Sports and travel	    	|15011.36		|2251.63
-|A	   |Food and beverages	  	|16345.81		|1627.39
-|A	   |Health and beauty	    	|11997.86		|1725.83
-|C	   |Food and beverages  		|22635.1		|2116.05
-|B	   |Sports and travel	    	|19036.38		|1794.19
-|A	   |Fashion accessories	  	|15554.77		|3418.36
-|B	   |Fashion accessories	  	|15631.73		|2248.75
+|:-----|:------------------------|:----------|:----------
+|C	    |Health and beauty	    	|15824.12	|2189.02
+|C	    |Home and lifestyle       |13233.86	|2202.37
+|C	    |Electronic accessories	|18065.69	|2619.73
+|B	    |Food and beverages	  	   |14490.37	|1603.89
+|B	    |Electronic accessories	|16239.47	|2235.4
+|A 	 |Electronic accessories	|17444.87	|1348.68
+|A	    |Home and lifestyle	  	   |21349.71	|3668.13
+|A	    |Sports and travel		   |18450.19	|3435.73
+|C	    |Fashion accessories		|20533.4		|4669.1
+|B	    |Home and lifestyle	  	   |16713.49	|1780.84
+|B	    |Health and beauty	    	|19029.2		|2977.49
+|C	    |Sports and travel	    	|15011.36	|2251.63
+|A	    |Food and beverages	  	   |16345.81	|1627.39
+|A	    |Health and beauty	    	|11997.86	|1725.83
+|C	    |Food and beverages  		|22635.1		|2116.05
+|B	    |Sports and travel	    	|19036.38	|1794.19
+|A	    |Fashion accessories	  	|15554.77	|3418.36
+|B	    |Fashion accessories	  	|15631.73	|2248.75
 
 
 > Table 3: Mean and standard deviation for sales based on customer type.
 
-|Customer Type	|Mean	  |Standard Deviation
-|:--------------|:------|:-----------------
-|Normal		    	|55.14	|26.24
-|Member		    	|56.21	|26.71
+|Customer Type|Mean  |Standard Deviation
+|:------------|:-----|:-----------------
+|Normal       |55.14 |26.24
+|Member       |56.21 |26.71
 
 
 > Table 4: ANOVA results
 
-|		      	|sum_sq	|df	  	|F	  	|PR(>F)
-|:----------|:------|:------|:------|:-----
-|C(Branch)	|558.1	|2.0  	|0.3970	|0.6724
-|Residual	  |700705	|997.0	|NaN  	|NaN
+|         |sum_sq|df   |F     |PR(>F)
+|:--------|:-----|:----|:-----|:-----
+|C(Branch)|558.1 |2.0  |0.3970|0.6724
+|Residual |700705|997.0|NaN   |NaN
 
 Based on Table 1, Branch C had the highest total sales, while Branch B had the least. Furthermore, Table 2 shows that the ‘Health and beauty’, ‘Home and lifestyle’, and ‘Electronic accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines. Revenue improvement is best achieved by focusing on these three product lines in Branch C.
 
@@ -79,10 +79,10 @@ Table 4 shows residual variation (700,705) greatly exceeded branch variation (55
 
 ## Repository Contents
 This repository contains the following files:
-|File                     |Description                                                              |Objectives Fulfilled
-|:------------------------|:------------------------------------------------------------------------|:--------------------
-|marketQuery.sql          |SQL file containing a total of 2 queries returning results in CSV format |1,2
-|supermarkeAnalysis.py    |Code for one-tailed t-test and ANOVA test                                |3,4
+|File                   |Description                                                              |Objectives Fulfilled
+|:----------------------|:------------------------------------------------------------------------|:--------------------
+|marketQuery.sql        |SQL file containing a total of 2 queries returning results in CSV format |1,2
+|supermarketAnalysis.py |Code for one-tailed t-test and ANOVA test                                |3,4
 
 ## Requirements
 1. PostgreSQL 14+
