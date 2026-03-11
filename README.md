@@ -2,7 +2,7 @@
 Data analysis on Supermarket Sales Dataset via SQL and hypothesis testing.
 
 ## Executive Summary
-Branch C leads in sales, with 'Health and beauty', 'Home and lifestyle', and 'Electronic accessories' as its top product lines. Membership program impact is negligible, and branch differences are statistically insignificant.
+Analysed supermarket sales data using SQL and statistical testing to uncover branch performance, product line profitability, and customer behaviour. Findings highlight product line specialization as a stronger driver of revenue than branch location or membership programs.
 
 ## Problem Statement
 The Supermarket Sales Dataset is a dataset containing 100 observations with data on customer gender, invoice ID, supermarket branch at which a sale occurred, city (supermarket location), product line, unit price, (sale) quantity, and tax. This work aims to achieve the following objectives:
@@ -30,24 +30,24 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 
 |Branch|Product Line		      	|Total Sales|Total Taxes
 |:-----|:------------------------|:----------|:----------
-|C	    |Health and beauty	    	|15824.12	|2189.02
-|C	    |Home and lifestyle       |13233.86	|2202.37
-|C	    |Electronic accessories	|18065.69	|2619.73
-|B	    |Food and beverages	  	   |14490.37	|1603.89
-|B	    |Electronic accessories	|16239.47	|2235.4
-|A 	 |Electronic accessories	|17444.87	|1348.68
-|A	    |Home and lifestyle	  	   |21349.71	|3668.13
-|A	    |Sports and travel		   |18450.19	|3435.73
-|C	    |Fashion accessories		|20533.4		|4669.1
-|B	    |Home and lifestyle	  	   |16713.49	|1780.84
-|B	    |Health and beauty	    	|19029.2		|2977.49
-|C	    |Sports and travel	    	|15011.36	|2251.63
-|A	    |Food and beverages	  	   |16345.81	|1627.39
-|A	    |Health and beauty	    	|11997.86	|1725.83
-|C	    |Food and beverages  		|22635.1		|2116.05
-|B	    |Sports and travel	    	|19036.38	|1794.19
-|A	    |Fashion accessories	  	|15554.77	|3418.36
-|B	    |Fashion accessories	  	|15631.73	|2248.75
+|C     |Food and beverages       |22635.1    |2116.05
+|A     |Home and lifestyle	      |21349.71	|3668.13
+|C	    |Fashion accessories      |20533.4    |4669.1
+|B	    |Sports and travel        |19036.38   |1794.19
+|B	    |Health and beauty        |19029.2    |2977.49
+|A	    |Sports and travel        |18450.19   |3435.73
+|C     |Electronic accessories   |18065.69   |2619.73
+|A     |Electronic accessories   |17444.87   |1348.68
+|B     |Home and lifestyle       |16713.49   |1780.84
+|A     |Food and beverages       |16345.81   |1627.39
+|B     |Electronic accessories   |16239.47   |2235.4
+|C     |Health and beauty        |15824.12   |2189.02
+|B     |Fashion accessories      |15631.73   |2248.75
+|A     |Fashion accessories      |15554.77   |3418.36
+|C     |Sports and travel        |15011.36   |2251.63
+|B     |Food and beverages       |14490.37   |1603.89
+|C     |Home and lifestyle       |13233.86   |2202.37
+|A     |Health and beauty        |11997.86   |1725.83
 
 
 > Table 3: Mean and standard deviation for sales based on customer type.
@@ -65,17 +65,18 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 |C(Branch)|558.1 |2.0  |0.3970|0.6724
 |Residual |700705|997.0|NaN   |NaN
 
-Based on Table 1, Branch C had the highest total sales, while Branch B had the least. Furthermore, Table 2 shows that the ‘Health and beauty’, ‘Home and lifestyle’, and ‘Electronic accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines. Revenue improvement is best achieved by focusing on these three product lines in Branch C.
+Based on Table 1, Branch C had the highest total sales, while Branch B had the least. Furthermore, Table 2 shows that the ‘Food and beverages’ product line in Branch C had the highest sales, followed by the ‘Home and lifestyle’ product line of Branch A in 2nd place, and the ‘Fashion accessories’ product line of Branch C in 3rd place. Revenue improvement is best achieved by focusing on these three product lines. There is also the possibility of reallocation of budget for product line stocks based on their sales in each branch. For example, budget allocation for ‘Food and beverage’ can be prioritized in C but minimized in B, considering that the sales for ‘Food and beverage’ in B was ranked 16 out of 18.
 
 Table 3 shows that members had slightly higher mean sales compared to normal customers. However, based on the one-tailed test results, **t-statistic = -0.6395** and **p-value = 0.2613**. Since the p-value obtained was above the 5% significance level, the difference in sales between normal and member customers was negligible. An assessment of membership benefits could be considered to encourage customer spending. For example, benefits could be made more attractive by introducing a more lucrative point-based system for purchases.
 
 Table 4 shows residual variation (700,705) greatly exceeded branch variation (558), indicating that customer level differences dominate sales outcomes. Furthermore, PR(>F) had a value of 0.6724, which was larger than the 5% significance level. Hence, differences in sales between branches could be deemed random noise.
 
 ## Conclusion
-- Branch C had the highest sales, followed by A, and lastly B.
-- ‘Health and beauty’, ‘Home and lifestyle’, and Electronic accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines.
-- Negligible difference in sales between 'normal' and 'member' customers.
-- Negligible difference in sales between supermarket branches.
+•   Branch C had the highest sales, followed by A, and lastly B. Nevertheless, differences in sales were statistically insignificant.
+•	Top 3 branch-specific product lines in terms of sales were ‘Food and beverages’ in Branch C, followed by ‘Home and lifestyle’ in Branch A, and ‘Fashion accessories’ in Branch C.
+•	Negligible difference in sales between 'normal' and 'member' customers; limited ROI on loyalty initiatives.
+•	Strategic takeaway: Overall, branch location or membership status are not key drivers of overall sales. Customer loyalty programmes are expected to have limited ROI unless there are major revisions. However, considering some branches produce greater sales for specific product lines, increased branch product line specialization could lead to improved overall sales. Weightages for the future budget of stocks in each branch can be determined based on previous year sales, which would be a good avenue for future research.
+
 
 ## Repository Contents
 This repository contains the following files:
