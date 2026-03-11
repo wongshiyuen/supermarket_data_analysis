@@ -15,6 +15,7 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 
 ## Results
 > Table 1: Total sales and taxes of each branch in descending order.
+
 |Branch	|Total Sales|Total Taxes
 |:------|:----------|:----------
 |C	    |105303.50  |16047.90
