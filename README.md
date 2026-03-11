@@ -86,10 +86,10 @@ This repository contains the following files:
 
 ## Requirements
 1. PostgreSQL 14+
-2. pandas
-3. numpy
-4. statsmodels
-5. scipy
+2. pandas (tested with ver 2.3.1)
+3. numpy (tested with ver 2.1.3)
+4. statsmodels (tested with ver 0.14.6)
+5. scipy (tested with ver 1.16.3)
 
 Install Python dependencies with:
 ```bash
