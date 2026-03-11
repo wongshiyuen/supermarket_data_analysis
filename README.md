@@ -66,13 +66,10 @@ Table 3 shows that members had slightly higher mean sales compared to normal cus
 Table 4 shows huge residual values (700705) relative to total sales variations between branches (558.1). This indicated that all variation in sales amounts is purely due to customers with no relation to the any specific branch. Furthermore, PR(>F) had a value of 0.6724, which was larger than the 5% significance level. Hence, differences in sales between branches could be deemed random noise.
 
 ## Conclusion
-•	Branch C had the highest sales, followed by A, and lastly B.
-
-•	‘Health and Beauty’, ‘Home and Lifestyle’, and Electronic Accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines.
-
-•	Negligible difference in sales between 'normal' and 'member' customers.
-
-•	Negligible difference in sales between supermarket branches.
+- Branch C had the highest sales, followed by A, and lastly B.
+- ‘Health and Beauty’, ‘Home and Lifestyle’, and Electronic Accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines.
+- Negligible difference in sales between 'normal' and 'member' customers.
+- Negligible difference in sales between supermarket branches.
 
 ## Data Attribution
 The Supermarket Sales Dataset is a dataset licensed under **CC0: Public Domain**. It is available on Kaggle at:
