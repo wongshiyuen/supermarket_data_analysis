@@ -7,7 +7,7 @@ Branch C leads in sales, with Health & Beauty, Home & Lifestyle, and Electronic 
 ## Problem Statement
 The Supermarket Sales Dataset is a dataset containing 100 observations with data on customer gender, invoice ID, supermarket branch at which a sale occurred, city (supermarket location), product line, unit price, (sale) quantity, and tax. This work aims to achieve the following objectives:
 1)  Determine and rank total sales for each branch.
-2)  Identify and ranked product lines with highest sales with respect to branch.
+2)  Identify and rank product lines with highest sales with respect to branch.
 3)  Determine if there is a significant difference in sales between normal customers and members.
 4) Determine if there are significant differences in sales between all branches.
 
