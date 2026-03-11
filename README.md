@@ -72,10 +72,10 @@ Table 3 shows that members had slightly higher mean sales compared to normal cus
 Table 4 shows residual variation (700,705) greatly exceeded branch variation (558), indicating that customer level differences dominate sales outcomes. Furthermore, PR(>F) had a value of 0.6724, which was larger than the 5% significance level. Hence, differences in sales between branches could be deemed random noise.
 
 ## Conclusion
-•   Branch C had the highest sales, followed by A, and lastly B. Nevertheless, differences in sales were statistically insignificant.
-•	Top 3 branch-specific product lines in terms of sales were ‘Food and beverages’ in Branch C, followed by ‘Home and lifestyle’ in Branch A, and ‘Fashion accessories’ in Branch C.
-•	Negligible difference in sales between 'normal' and 'member' customers; limited ROI on loyalty initiatives.
-•	Strategic takeaway: Overall, branch location or membership status are not key drivers of overall sales. Customer loyalty programmes are expected to have limited ROI unless there are major revisions. However, considering some branches produce greater sales for specific product lines, increased branch product line specialization could lead to improved overall sales. Weightages for the future budget of stocks in each branch can be determined based on previous year sales, which would be a good avenue for future research.
+-   Branch C had the highest sales, followed by A, and lastly B. Nevertheless, differences in sales were statistically insignificant.
+-   Top 3 branch-specific product lines in terms of sales were ‘Food and beverages’ in Branch C, followed by ‘Home and lifestyle’ in Branch A, and ‘Fashion accessories’ in Branch C.
+-   Negligible difference in sales between 'normal' and 'member' customers; limited ROI on loyalty initiatives.
+-   Strategic takeaway: Overall, branch location or membership status are not key drivers of overall sales. Customer loyalty programmes are expected to have limited ROI unless there are major revisions. However, considering some branches produce greater sales for specific product lines, increased **branch product line specialization** could lead to improved overall sales. Weightages for the future budget of stocks in each branch can be determined based on previous year sales, which would be a good avenue for future research.
 
 
 ## Repository Contents
