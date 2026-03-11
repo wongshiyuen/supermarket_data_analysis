@@ -25,6 +25,7 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 |A	    |101143.20  |15224.12
 |B      |101140.60	|12640.56
 
+
 > Table 2: Product lines with highest sales with respect to branch ranked in descending order.
 
 |Branch|Product Line		      	|Total Sales|Total Taxes
@@ -48,12 +49,14 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 |A	   |Fashion accessories	  	|15554.77		|3418.36
 |B	   |Fashion accessories	  	|15631.73		|2248.75
 
+
 > Table 3: Mean and standard deviation for sales based on customer type.
 
 |Customer Type	|Mean	  |Standard Deviation
 |:--------------|:------|:-----------------
 |Normal		    	|55.14	|26.24
 |Member		    	|56.21	|26.71
+
 
 > Table 4: ANOVA results
 
