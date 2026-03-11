@@ -5,7 +5,7 @@ from statsmodels.formula.api import ols
 from scipy.stats import ttest_ind
 #=======================================================================================================
 #Dataset
-path = r"C:\Users\Wong Shi Yuen\OneDrive\Documents\supermarketSales\supermarket_sales new.csv"
+path = r"supermarket_sales_new.csv"
 df = pd.read_csv(path)
 
 #Hypothesis testing threshold
