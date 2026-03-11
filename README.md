@@ -75,7 +75,7 @@ Table 4 shows residual variation (700,705) greatly exceeded branch variation (55
 -   Branch C had the highest sales, followed by A, and lastly B. Nevertheless, differences in sales were statistically insignificant.
 -   Top 3 branch-specific product lines in terms of sales were ‘Food and beverages’ in Branch C, followed by ‘Home and lifestyle’ in Branch A, and ‘Fashion accessories’ in Branch C.
 -   Negligible difference in sales between 'normal' and 'member' customers; limited ROI on loyalty initiatives.
--   Strategic takeaway: Overall, branch location or membership status are not key drivers of overall sales. Customer loyalty programmes are expected to have limited ROI unless there are major revisions. However, considering some branches produce greater sales for specific product lines, increased **branch product line specialization** could lead to improved overall sales. Weightages for the future budget of stocks in each branch can be determined based on previous year sales, which would be a good avenue for future research.
+-   **Strategic takeaway:** Overall, branch location or membership status are not key drivers of overall sales. Customer loyalty programmes are expected to have limited ROI unless there are major revisions. However, considering some branches produce greater sales for specific product lines, increased **branch product line specialization** could lead to improved overall sales. Weightages for the future budget of stocks in each branch can be determined based on previous year sales, which would be a good avenue for future research.
 
 
 ## Repository Contents
