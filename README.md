@@ -10,8 +10,8 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 
 ## Methodology
 - Total sales for each branch, as well as bestseller product lines for each branch, were determined and ranked using SQL.
-- A one-tailed t-test with 5% significance level was used to determine if there is a significant difference in sales between normal customers and members.
-- ANOVA testing with 5% significance level was used to determine if there are statistically significant differences in sales between all supermarket branches.
+- A **one-tailed t-test** with **5% significance level** was used to determine if there is a significant difference in sales between normal customers and members.
+- **ANOVA** testing with **5% significance level** was used to determine if there are statistically significant differences in sales between all supermarket branches.
 
 ## Results
 > Table 1: Total sales and taxes of each branch in descending order.
@@ -61,7 +61,7 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 
 Based on Table 1, Branch C had the highest total sales, while Branch B had the least. Furthermore, Table 2 shows that the ‘Health and Beauty’, ‘Home and Lifestyle’, and Electronic Accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines. Improvement in revenue can most likely be best achieved by focusing on these 3 product lines in Branch C.
 
-Table 3 shows that members had slightly higher mean sales compared to normal customers. However, based on the one-tailed test results, t-statistic = -0.6395 and p-value = 0.2613. Since the p-value obtained was below the 5% significance level, any difference in sales between 'normal' and 'member' customers could be considered negligible. An assessment of membership benefits could be considered to encourage customer spending. For example, benefits could be made more attractive by introducing a more lucrative point-based system for purchases.
+Table 3 shows that members had slightly higher mean sales compared to normal customers. However, based on the one-tailed test results, **t-statistic = -0.6395** and **p-value = 0.2613**. Since the p-value obtained was below the 5% significance level, any difference in sales between 'normal' and 'member' customers could be considered negligible. An assessment of membership benefits could be considered to encourage customer spending. For example, benefits could be made more attractive by introducing a more lucrative point-based system for purchases.
 
 Table 4 shows huge residual values (700705) relative to total sales variations between branches (558.1). This indicated that all variation in sales amounts is purely due to customers with no relation to the any specific branch. Furthermore, PR(>F) had a value of 0.6724, which was larger than the 5% significance level. Hence, differences in sales between branches could be deemed random noise.
 
