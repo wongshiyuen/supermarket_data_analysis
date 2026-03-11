@@ -2,7 +2,7 @@
 Data analysis on Supermarket Sales Dataset via SQL and hypothesis testing.
 
 ## Executive Summary
-Branch C leads in sales, with Health & Beauty, Home & Lifestyle, and Electronic Accessories as its top product lines. Membership program impact is negligible, and branch differences are statistically insignificant.
+Branch C leads in sales, with 'Health and beauty', 'Home and lifestyle', and 'Electronic accessories' as its top product lines. Membership program impact is negligible, and branch differences are statistically insignificant.
 
 ## Problem Statement
 The Supermarket Sales Dataset is a dataset containing 100 observations with data on customer gender, invoice ID, supermarket branch at which a sale occurred, city (supermarket location), product line, unit price, (sale) quantity, and tax. This work aims to achieve the following objectives:
@@ -62,7 +62,7 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 |C(Branch)	|558.1	|2.0  	|0.3970	|0.6724
 |Residual	  |700705	|997.0	|NaN  	|NaN
 
-Based on Table 1, Branch C had the highest total sales, while Branch B had the least. Furthermore, Table 2 shows that the ‘Health and Beauty’, ‘Home and Lifestyle’, and Electronic Accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines. Improvement in revenue can most likely be best achieved by focusing on these 3 product lines in Branch C.
+Based on Table 1, Branch C had the highest total sales, while Branch B had the least. Furthermore, Table 2 shows that the ‘Health and beauty’, ‘Home and lifestyle’, and Electronic accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines. Improvement in revenue can most likely be best achieved by focusing on these 3 product lines in Branch C.
 
 Table 3 shows that members had slightly higher mean sales compared to normal customers. However, based on the one-tailed test results, **t-statistic = -0.6395** and **p-value = 0.2613**. Since the p-value obtained was above the 5% significance level, any difference in sales between 'normal' and 'member' customers could be considered negligible. An assessment of membership benefits could be considered to encourage customer spending. For example, benefits could be made more attractive by introducing a more lucrative point-based system for purchases.
 
