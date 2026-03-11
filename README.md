@@ -77,6 +77,37 @@ Table 4 shows residual variation (700,705) greatly exceeded branch variation (55
 - Negligible difference in sales between 'normal' and 'member' customers.
 - Negligible difference in sales between supermarket branches.
 
+## Repository Contents
+This repository contains the following files:
+|File                     |Description                                                              |Objectives Fulfilled
+|:------------------------|:------------------------------------------------------------------------|:--------------------
+|marketQuery.sql          |SQL file containing a total of 2 queries returning results in CSV format |1,2
+|supermarkeAnalysis.py    |Code for one-tailed t-test and ANOVA test                                |3,4
+
+## Requirements
+1. PostgreSQL 14+
+2. pandas
+3. numpy
+4. statsmodel
+5. scipy
+
+## Getting Started
+The following are the procedures for downloading the required dataset and running the SQL file and .py in this repository:
+1.  Download the dataset from Kaggle. Save the dataset in CSV format.
+2.  Clone or download this repository to get the SQL and Python files. Ensure the dataset and all downloaded files are placed within the same project folder.
+3.  Run the analysis.
+   - For SQL:  
+     ```bash
+     psql -d your_database -f supermarket_sales.sql
+     ```
+   - For Python:  
+     ```bash
+     python supermarket_sales.py
+     ```
+4.  Check outputs:
+   - SQL queries will export results as CSV files in the same folder.
+   - Python scripts will generate statistical analysis outputs.
+
 ## Data Attribution
 The Supermarket Sales Dataset is a dataset licensed under **CC0: Public Domain**. It is available on Kaggle at:
 (https://www.kaggle.com/datasets/ismatkhan121/supermarket-sales-dataset)
