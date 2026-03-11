@@ -70,7 +70,7 @@ Table 4 shows residual variation (700,705) was far larger than branch variation 
 
 ## Conclusion
 - Branch C had the highest sales, followed by A, and lastly B.
-- ‘Health and Beauty’, ‘Home and Lifestyle’, and Electronic Accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines.
+- ‘Health and beauty’, ‘Home and lifestyle’, and Electronic accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines.
 - Negligible difference in sales between 'normal' and 'member' customers.
 - Negligible difference in sales between supermarket branches.
 
