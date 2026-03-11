@@ -88,8 +88,13 @@ This repository contains the following files:
 1. PostgreSQL 14+
 2. pandas
 3. numpy
-4. statsmodel
+4. statsmodels
 5. scipy
+
+Install Python dependencies with:
+```bash
+pip install pandas numpy statsmodels scipy
+```
 
 ## Getting Started
 1. **Download files**
