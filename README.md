@@ -1,6 +1,9 @@
 # Supermarket Sales Dataset Analysis
 Data analysis on Supermarket Sales Dataset via SQL and hypothesis testing.
 
+## Executive Summary
+Branch C leads in sales, with Health & Beauty, Home & Lifestyle, and Electronic Accessories as its top product lines. Membership program impact is negligible, and branch differences are statistically insignificant.
+
 ## Problem Statement
 The Supermarket Sales Dataset is a dataset containing 100 observations with data on customer gender, invoice ID, supermarket branch at which a sale occurred, city (supermarket location), product line, unit price, (sale) quantity, and tax. This work aims to achieve the following objectives:
 1)  Determine and rank total sales for each branch.
@@ -61,9 +64,9 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 
 Based on Table 1, Branch C had the highest total sales, while Branch B had the least. Furthermore, Table 2 shows that the ‘Health and Beauty’, ‘Home and Lifestyle’, and Electronic Accessories’ product lines of Branch C were the top 3 most lucrative branch-specific product lines. Improvement in revenue can most likely be best achieved by focusing on these 3 product lines in Branch C.
 
-Table 3 shows that members had slightly higher mean sales compared to normal customers. However, based on the one-tailed test results, **t-statistic = -0.6395** and **p-value = 0.2613**. Since the p-value obtained was below the 5% significance level, any difference in sales between 'normal' and 'member' customers could be considered negligible. An assessment of membership benefits could be considered to encourage customer spending. For example, benefits could be made more attractive by introducing a more lucrative point-based system for purchases.
+Table 3 shows that members had slightly higher mean sales compared to normal customers. However, based on the one-tailed test results, **t-statistic = -0.6395** and **p-value = 0.2613**. Since the p-value obtained was above the 5% significance level, any difference in sales between 'normal' and 'member' customers could be considered negligible. An assessment of membership benefits could be considered to encourage customer spending. For example, benefits could be made more attractive by introducing a more lucrative point-based system for purchases.
 
-Table 4 shows huge residual values (700705) relative to total sales variations between branches (558.1). This indicated that all variation in sales amounts is purely due to customers with no relation to the any specific branch. Furthermore, PR(>F) had a value of 0.6724, which was larger than the 5% significance level. Hence, differences in sales between branches could be deemed random noise.
+Table 4 shows residual variation (700,705) was far larger than branch variation (558), indicating that customer level differences dominate sales outcomes. Furthermore, PR(>F) had a value of 0.6724, which was larger than the 5% significance level. Hence, differences in sales between branches could be deemed random noise.
 
 ## Conclusion
 - Branch C had the highest sales, followed by A, and lastly B.
