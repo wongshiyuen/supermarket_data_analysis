@@ -50,6 +50,10 @@ The Supermarket Sales Dataset is a dataset containing 100 observations with data
 |A     |Health and beauty        |11997.86   |1725.83
 
 
+![Product Line Sales by Branch](images/branch_product_sales.png)
+*Figure 1: Branch-specific product line sales.*
+
+
 > Table 3: Mean and standard deviation for sales based on customer type.
 
 |Customer Type|Mean  |Standard Deviation
